@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jayps Arts</title>
+	<link rel="icon" type="image/x-icon" href="img/favicon.png">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+	<nav>
+		<a href="index.html"><img src="img/logo.png"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+
+			<ul>
+				<li><a href="index.html" class="active">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+
+<div class="text-box">
+	<h1>Jayps Art</h1>
+	<p>A website use for tutorials, tutoring on how to draw and encouraging art works.</p>
+	<a href="about.html" class="hero-btn">Visit Us To learn More</a>
+</div>	
+</section>
+
+<!-------- My Art -------->
+
+<section class="myart">
+	<h1>My Art</h1>
+	<p>This are some of my vexel art.<br>Hope you like it and be inspired that you can also do what you want to do.</p>
+
+	<div class="row">
+		<div class="myart-col">
+			<img src="img/art/a1.jpg">
+			<div class="layer">
+				<h3>Chelsea Reyes</h3>
+			</div>
+		</div>
+		<div class="myart-col">
+			<img src="img/art/a2.jpg">
+			<div class="layer">
+				<h3>Marvin Fojas</h3>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="myart-col">
+			<img src="img/art/a3.jpg">
+			<div class="layer">
+				<h3>Albert Nicolas</h3>
+			</div>
+		</div>
+		<div class="myart-col">
+			<img src="img/art/a4.jpg">
+			<div class="layer">
+				<h3>Tyrone Tiaga</h3>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-------- Software Used -------->
+
+<section class="software">
+	<h1>Software Used</h1>
+	<p>The software that I used to draw my arts.</p>
+
+	<div class="row">
+		<div class="software-col">
+			<img src="img/applogo.png">
+			<h3>ibis Paint X</h3>
+			<p>ibis Paint X is a popular and versatile drawing app downloaded more than 280 million times in total as a series, which provides over 15000 brushes, over 15000 materials, over 1000 fonts, 80 filters, 46 screentones, 27 blending modes, recording drawing processes, stroke stabilization feature, various ruler features such as radial line rulers or symmetry rulers, and clipping mask features.</p><br>
+			<p>You can download it in playstore for Android users and Appstore for iOS users</p>
+		</div>
+	</div>
+</section>
+
+<!-------- Reviews -------->
+<section class="reviews">
+	<h1>Students Reviews</h1>
+	<p>Two of my students review.</p>
+
+	<div class="row">
+		<div class="reviews-col">
+			<img src="img/s1.jpg">
+			<div>
+				<p>I enjoyed how my teacher teaches me. Definitely worth it.</p>
+				<h3>Bong Villare</h3>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+		</div>
+		<div class="reviews-col">
+			<img src="img/s2.jpg">
+			<div>
+				<p>It's cool I learned a lot thanks to my instructor.</p>
+				<h3>Ramon Bonifacio</h3>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-------- Download And Play -------->
+
+<section class="dpa">
+	<h1>DOWNLOAD DRAW AND ENJOY NOW</h1>
+	<a href="#" class="hero-btn">DRAW</a>
+</section>
+
+<!-------- Footer -------->
+
+<section class="footer">
+	<p>&copy; 2023 www.jayps-art.com <br>Candahon, Mogpog, Marinduque</p>
+</section>
+
+<!-------- JavaScript for Toggle Menu -------->
+<script>
+	var	navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0"
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px"
+	}
+</script>
+
+</body>
+</html>
